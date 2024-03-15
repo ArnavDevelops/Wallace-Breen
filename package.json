@@ -1,0 +1,16 @@
+{
+  "name": "dyce",
+  "version": "1.0.0",
+  "description": "A Public Open-Sourced bot for Management and Moderation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "arnav1001yt",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
