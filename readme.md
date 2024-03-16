@@ -2,7 +2,7 @@
 Wallace Breen is a Discord bot, I made for my friend and for his Discord server. Made using Node.js and discord.js.
 
 # To do:
-### (More to be added)
+###
 - [X] Make reaction roles
 
 # Important
