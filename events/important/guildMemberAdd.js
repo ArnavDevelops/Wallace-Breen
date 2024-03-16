@@ -6,10 +6,6 @@ const guildId = process.env.guildId
 //GuildMemberAdd event
 module.exports = {
   name: Events.GuildMemberAdd,
-    /**
-  * @param {GuildMember} member
-  * @param {Client} client
-  */
   async execute(member, client) {
     //Misc
     if (member.user.bot) return;

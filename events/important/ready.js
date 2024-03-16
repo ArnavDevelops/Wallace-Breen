@@ -8,9 +8,6 @@ const guildId = process.env.guildId
 module.exports = {
   name: Events.ClientReady,
   once: true,
-  /**
-  * @param {Client} client
-  */
   async execute(client) {
     const guild = client.guilds.cache.get(guildId);
 

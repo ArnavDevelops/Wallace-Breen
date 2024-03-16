@@ -4,10 +4,6 @@ const { EmbedBuilder, ChatInputCommandInteraction, Events } = require("discord.j
 //Interaction Create event
 module.exports = {
   name: Events.InteractionCreate,
-  /**
-  * @param {Client} client
-  * @param {ChatInputCommandInteraction} interaction
-  */
   async execute(interaction, client) {
     //Application Commands
     if (interaction.isChatInputCommand()) {
