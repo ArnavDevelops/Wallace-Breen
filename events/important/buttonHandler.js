@@ -19,5 +19,17 @@ module.exports = {
           interaction.reply({ content: `Successfully added \`${role.name}\``, ephemeral:  true})
         }
     }
+
+      if(interaction.customId === "news") {
+        const role = guild.roles.cache.get('1224701772925243483');        
+
+        if(interaction.member.roles.cache.has(role.id)) {
+          interaction.member.roles.remove(role)
+          interaction.reply({ content: `Successfully removed \`${role.name}\``, ephemeral:  true})
+        } else {
+          interaction.member.roles.add(role)
+          interaction.reply({ content: `Successfully added \`${role.name}\``, ephemeral:  true})
+        }
+    }
   }
 }
